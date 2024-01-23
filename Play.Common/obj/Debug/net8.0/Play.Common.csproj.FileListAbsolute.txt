@@ -1,0 +1,12 @@
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\bin\Debug\net8.0\Play.Common.deps.json
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\bin\Debug\net8.0\Play.Common.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\bin\Debug\net8.0\Play.Common.pdb
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.csproj.AssemblyReference.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.AssemblyInfoInputs.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.AssemblyInfo.cs
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.csproj.CoreCompileInputs.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\refint\Play.Common.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.pdb
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\ref\Play.Common.dll

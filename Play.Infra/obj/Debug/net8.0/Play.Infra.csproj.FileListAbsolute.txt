@@ -1,0 +1,14 @@
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\bin\Debug\net8.0\Play.Infra.exe
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\bin\Debug\net8.0\Play.Infra.deps.json
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\bin\Debug\net8.0\Play.Infra.runtimeconfig.json
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\bin\Debug\net8.0\Play.Infra.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\bin\Debug\net8.0\Play.Infra.pdb
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.AssemblyInfoInputs.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.AssemblyInfo.cs
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.csproj.CoreCompileInputs.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\refint\Play.Infra.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.pdb
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.genruntimeconfig.cache
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\ref\Play.Infra.dll
