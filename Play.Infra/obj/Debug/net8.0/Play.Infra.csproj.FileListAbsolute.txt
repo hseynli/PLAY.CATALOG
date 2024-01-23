@@ -12,3 +12,4 @@ D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\refint\Play.Inf
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.pdb
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.genruntimeconfig.cache
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\ref\Play.Infra.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Infra\obj\Debug\net8.0\Play.Infra.sourcelink.json

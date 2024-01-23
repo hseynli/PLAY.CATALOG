@@ -46,3 +46,17 @@ D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\runti
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Play.Common.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\obj\Debug\net8.0\Play.Catalog.Service.sourcelink.json
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Play.Catalog.Contracts.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Play.Catalog.Contracts.pdb
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Automatonymous.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\GreenPipes.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\MassTransit.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\MassTransit.AspNetCoreIntegration.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\NewId.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Catalog.Service\bin\Debug\net8.0\RabbitMQ.Client.dll

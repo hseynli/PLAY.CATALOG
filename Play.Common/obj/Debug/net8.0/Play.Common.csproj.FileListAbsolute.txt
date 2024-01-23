@@ -10,3 +10,4 @@ D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.dl
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\refint\Play.Common.dll
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.pdb
 D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\ref\Play.Common.dll
+D:\Projects\VS Projects\PLAY.CATALOG\Play.Common\obj\Debug\net8.0\Play.Common.sourcelink.json

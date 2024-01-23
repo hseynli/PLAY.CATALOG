@@ -27,6 +27,6 @@ namespace Play.Catalog.Service.Entities
         [BsonElement("CreatedDate")]
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         public DateTime CreatedDate { get; set; }
-        public string SomeText { get; set; } = "Hello, World!";
+        public string SomeText { get; set; }
     }
 }
