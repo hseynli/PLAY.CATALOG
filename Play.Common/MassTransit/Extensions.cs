@@ -1,4 +1,5 @@
-﻿using MassTransit;
+﻿using GreenPipes;
+using MassTransit;
 using MassTransit.Definition;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +24,10 @@ namespace Play.Common.MassTransit
                     RabbitMQSettings rabbitMQSettings = configuration.GetSection(nameof(RabbitMQSettings)).Get<RabbitMQSettings>();
                     cfg.Host(rabbitMQSettings.Host);
                     ctx.ConfigureEndpoints(cfg, new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
+                    cfg.UseMessageRetry(retryConfugirator =>
+                    {
+                        retryConfugirator.Interval(3, TimeSpan.FromSeconds(5));
+                    });
                 });
             });
 

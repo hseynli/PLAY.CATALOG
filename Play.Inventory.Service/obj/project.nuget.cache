@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TGf+j/ZU6exUk+PyRlb/VnrB8iArhUE+fFhwd7EnkK6N1Rr1bBk/rqwRGH3ZoG1EhRjg5s9qVCjAycYENoIyPw==",
+  "dgSpecHash": "Nm3oiS+n8sKlW8Rc3+wMrdAyhwMvWyySDfvEbGMGj7/2j60ID/9IkTujNXGS2ITrqI3kX1Bv/v4mYJRHfGYtlA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\VS Projects\\PLAY.CATALOG\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
   "expectedPackageFiles": [
@@ -44,7 +44,7 @@
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\play.catalog.contracts\\1.0.0\\play.catalog.contracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\farid.huseynli\\.nuget\\packages\\play.common\\1.0.2\\play.common.1.0.2.nupkg.sha512",
+    "C:\\Users\\farid.huseynli\\.nuget\\packages\\play.common\\1.0.4\\play.common.1.0.4.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
