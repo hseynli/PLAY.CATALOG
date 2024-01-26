@@ -8,12 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Play.Common" Version="1.0.4" />
+    <PackageReference Include="Play.Common" Version="1.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj" />
+    <ProjectReference Include="..\Play.Common\Play.Common.csproj" />
   </ItemGroup>
 
 </Project>

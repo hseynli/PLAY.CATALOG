@@ -1,4 +1,5 @@
 ﻿using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Contracts;
@@ -11,6 +12,7 @@ namespace Play.Catalog.Service.Controllers
 {
     [Route("items")]
     [ApiController]
+    [Authorize]
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<Item> repository;
@@ -21,13 +23,6 @@ namespace Play.Catalog.Service.Controllers
             this.repository = repository;
             this.publishEndpoint = publishEndpoint;
         }
-
-        private static readonly List<ItemDto> items = new()
-        {
-            new ItemDto(Guid.NewGuid(), "Potion", "Restore a small amount of HP", 5, DateTime.UtcNow),
-            new ItemDto(Guid.NewGuid(), "Antidote", "Cures poison", 7, DateTime.UtcNow),
-            new ItemDto(Guid.NewGuid(), "Bronze sword", "Deals a small amount of damage", 20, DateTime.UtcNow),
-        };
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ItemDto>>> GetAsync() => Ok((await repository.GetAllAsync()).Select(p => p.AsDto()));

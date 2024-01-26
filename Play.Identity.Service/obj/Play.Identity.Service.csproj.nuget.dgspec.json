@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,14 @@
             "AspNetCore.Identity.MongoDbCore": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Duende.IdentityServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Duende.IdentityServer.AspNetIdentity": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",

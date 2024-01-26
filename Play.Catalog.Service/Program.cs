@@ -1,6 +1,5 @@
-using MassTransit;
-using MassTransit.Definition;
 using Play.Catalog.Service.Entities;
+using Play.Common.Identity;
 using Play.Common.MassTransit;
 using Play.Common.MongoDb;
 using Play.Common.Settings;
@@ -9,7 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 ServiceSettings serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
 
-builder.Services.AddMongo().AddMongoRepository<Item>("items").AddMassTransitWithRabbitMq();
+builder.Services.AddMongo()
+                .AddMongoRepository<Item>("items")
+                .AddMassTransitWithRabbitMq()
+                .AddJwtBearerAuthentication();
 
 builder.Services.AddControllers(options => 
 {
@@ -28,6 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
