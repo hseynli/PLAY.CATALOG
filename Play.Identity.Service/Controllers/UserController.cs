@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Play.Identity.Service.DTOs;
@@ -10,7 +9,7 @@ namespace Play.Identity.Service.Controllers
 {
     [Route("users")]
     [ApiController]
-    [Authorize(Policy = LocalApi.PolicyName)]
+    [Authorize(Policy = LocalApi.PolicyName, Roles = Roles.Admin)]
     public class UserController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -23,7 +22,7 @@ namespace Play.Identity.Service.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDto>>> Get()
         {
-            var user = _userManager.Users.ToList().Select(p => p.AsDto());
+            IEnumerable<UserDto> user = _userManager.Users.ToList().Select(p => p.AsDto());
 
             await Task.CompletedTask;
 
@@ -33,20 +32,15 @@ namespace Play.Identity.Service.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> Get(Guid id)
         {
-            var user = await _userManager.FindByIdAsync(id.ToString());
+            ApplicationUser user = await _userManager.FindByIdAsync(id.ToString());
 
-            if (user is null)
-            {
-                return NotFound();
-            }
-
-            return Ok(user.AsDto());
+            return user is null ? (ActionResult<UserDto>)NotFound() : (ActionResult<UserDto>)Ok(user.AsDto());
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync(Guid id, UserDto userDto)
         {
-            var user = await _userManager.FindByIdAsync(id.ToString());
+            ApplicationUser user = await _userManager.FindByIdAsync(id.ToString());
 
             if (user is null)
             {
@@ -57,34 +51,24 @@ namespace Play.Identity.Service.Controllers
             user.UserName = userDto.Username;
             user.Gil = userDto.Gil;
 
-            var result = await _userManager.UpdateAsync(user);
+            IdentityResult result = await _userManager.UpdateAsync(user);
 
-            if (result.Succeeded)
-            {
-                return NoContent();
-            }
-
-            return BadRequest();
+            return result.Succeeded ? NoContent() : BadRequest();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync(Guid id)
         {
-            var user = await _userManager.FindByIdAsync(id.ToString());
+            ApplicationUser user = await _userManager.FindByIdAsync(id.ToString());
 
             if (user is null)
             {
                 return NotFound();
             }
 
-            var result = await _userManager.DeleteAsync(user);
+            IdentityResult result = await _userManager.DeleteAsync(user);
 
-            if (result.Succeeded)
-            {
-                return NoContent();
-            }
-
-            return BadRequest();
+            return result.Succeeded ? NoContent() : BadRequest();
         }
     }
 }
